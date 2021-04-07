@@ -7,5 +7,5 @@
   "git.enableSmartCommit": true,
   "git.confirmSync": false,
   "git.autofetch": true,
-  "terminal.integrated.cwd": "/home/coder"
+  "terminal.integrated.cwd": "/home/coder/project"
 }
