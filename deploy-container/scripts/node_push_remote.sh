@@ -1,0 +1,1 @@
+rclone sync --exclude "**node_modules/" --exclude "**build/" /home/coder/project code-server-v3-files:code-server-v3-files -vv
