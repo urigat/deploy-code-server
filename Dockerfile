@@ -26,6 +26,10 @@ RUN sudo apt-get install -y nodejs
 # Fix permissions for code-server
 RUN sudo chown -R coder:coder /home/coder/.local
 
+# MY "project" fixe
+RUN mkdir -p /home/coder/project
+RUN sudo chown -R coder:coder /home/coder/project
+
 # Port
 ENV PORT=8080
 
